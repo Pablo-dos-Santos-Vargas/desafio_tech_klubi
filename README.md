@@ -14,7 +14,7 @@ Acesse a aplicação em produção pelo link abaixo:
 <a href="https://desafio-tech-klubi.vercel.app" target="_blank" rel="noopener noreferrer">https://desafio-tech-klubi.vercel.app</a>
 
 ### 1. Apresentação da tela inicial
-![Demonstração da tela inicial](assets/gifs/pagina_desafio.gif)
+![Demonstração da tela inicial](assets/pagina_desafio.gif)
 
 ---
 
