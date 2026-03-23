@@ -14,7 +14,7 @@ Acesse a aplicação em produção pelo link abaixo:
 <a href="https://desafio-tech-klubi.vercel.app" target="_blank" rel="noopener noreferrer">https://desafio-tech-klubi.vercel.app</a>
 
 ### 1. Apresentação da tela inicial
-![Demonstração da tela inicial](assets/gifs/pagina_desafio.gif)
+![Demonstração da tela inicial](Assents/pagina_desafio.gif)
 
 ---
 
@@ -46,12 +46,12 @@ Abra no navegador o endereço exibido no terminal (geralmente `http://localhost:
 ---
 
 ### 2. Apresentação da pesquisa de carros
-![Demonstração da busca de carros](assets/gifs/pesquisa_desafio.gif)
+![Demonstração da busca de carros](Assents/pesquisa_desafio.gif)
 
 ---
 
 ### 3. Apresentação do chatbot Kris 
-![Demonstração do chatbot](assets/gifs/chat_desafio.gif)
+![Demonstração do chatbot](Assents/chat_desafio.gif)
 
 ---
 
