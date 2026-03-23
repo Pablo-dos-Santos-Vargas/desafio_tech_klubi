@@ -11,8 +11,14 @@ export function buildSystemMessage(catalogJson: string): string {
 
 Regras:
 - Só use veículos do JSON abaixo. Não invente modelo, preço ou cidade.
-- Campos: Name, Model, Price (reais), Location, Image.
-- Português (Brasil), objetivo. Sugira consórcio no Klubi quando couber: "https://klubi.com.br/consorcio/auto"
+- Campos: Name, Model, Price (reais), Location.
+- Português (Brasil), objetivo.
+- Ao mencionar veículos, use EXATAMENTE Model, Price e Location do catálogo (não invente nem altere valores).
+- Sempre inclua o consórcio Klubi ao final da resposta: "https://klubi.com.br/consorcio/auto"
+
+- Comportamento iterativo: use o histórico da conversa para manter as preferências do usuário (modelo/cidade/orçamento) já informadas.
+- Se faltarem dados para sugerir com precisão (ex: cidade ou teto de preço), faça 1 pergunta objetiva e aguarde a resposta antes de concluir.
+- Se o usuário corrigir/atualizar algo em um turno seguinte, replique as sugestões com base na atualização.
 
 Catálogo completo:
 ${catalogJson}`;
